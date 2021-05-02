@@ -1,0 +1,484 @@
+{
+  "RECORDS": [
+    {
+      "id": "134",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "1",
+      "bloque": "4",
+      "dia": "4",
+      "nombre_completo": "GIADACH JUAN RICARDO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "142",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "2",
+      "bloque": "4",
+      "dia": "3",
+      "nombre_completo": "SCHKOLNIK DEMIAN ALEY",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "143",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "3",
+      "bloque": "4",
+      "dia": "5",
+      "nombre_completo": "SCHKOLNIK DEMIAN ALEY",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "144",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "4",
+      "bloque": "4",
+      "dia": "2",
+      "nombre_completo": "DUARTE JUAN JOSE",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "145",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "5",
+      "bloque": "4",
+      "dia": "5",
+      "nombre_completo": "FREZ JONATHAN",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "147",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "7",
+      "bloque": "1",
+      "dia": "4",
+      "nombre_completo": "LLANZA LEANDRO ANTONIO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "148",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "8",
+      "bloque": "1",
+      "dia": "3",
+      "nombre_completo": "DUARTE JUAN JOSE",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "149",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "9",
+      "bloque": "5",
+      "dia": "4",
+      "nombre_completo": "SCHKOLNIK DEMIAN ALEY",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "135",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "10",
+      "bloque": "5",
+      "dia": "2",
+      "nombre_completo": "DUARTE JUAN JOSE",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "136",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "11",
+      "bloque": "3",
+      "dia": "2",
+      "nombre_completo": "DUARTE JUAN JOSE",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "137",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "12",
+      "bloque": "3",
+      "dia": "2",
+      "nombre_completo": "HIDALGO NICOLAS ANDRES",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "138",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "13",
+      "bloque": "3",
+      "dia": "4",
+      "nombre_completo": "GIADACH JUAN RICARDO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "139",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "14",
+      "bloque": "3",
+      "dia": "4",
+      "nombre_completo": "ALVAREZ ESTEBAN AUGUSTO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "140",
+      "nombre": "PROGRAMACIÓN",
+      "codigo": "CIT1000",
+      "seccion": "15",
+      "bloque": "3",
+      "dia": "1",
+      "nombre_completo": "GUTIERREZ MARTIN EDUARDO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "150",
+      "nombre": "PROGRAMACIÓN AVANZADA",
+      "codigo": "CIT1010",
+      "seccion": "1",
+      "bloque": "3",
+      "dia": "2",
+      "nombre_completo": "SCHKOLNIK DEMIAN ALEY",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "151",
+      "nombre": "PROGRAMACIÓN AVANZADA",
+      "codigo": "CIT1010",
+      "seccion": "2",
+      "bloque": "2",
+      "dia": "5",
+      "nombre_completo": "HIDALGO MAURICIO FERNANDO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "152",
+      "nombre": "PROGRAMACIÓN AVANZADA",
+      "codigo": "CIT1010",
+      "seccion": "3",
+      "bloque": "2",
+      "dia": "4",
+      "nombre_completo": "LLANZA LEANDRO ANTONIO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "153",
+      "nombre": "PROGRAMACIÓN AVANZADA",
+      "codigo": "CIT1010",
+      "seccion": "4",
+      "bloque": "1",
+      "dia": "2",
+      "nombre_completo": "HIDALGO MAURICIO FERNANDO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "154",
+      "nombre": "ESTRUCTURAS DE DATOS",
+      "codigo": "CIT2000",
+      "seccion": "1",
+      "bloque": "4",
+      "dia": "2",
+      "nombre_completo": "ROSSO NICOLAS IGNACIO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "155",
+      "nombre": "ESTRUCTURAS DE DATOS",
+      "codigo": "CIT2000",
+      "seccion": "2",
+      "bloque": "5",
+      "dia": "3",
+      "nombre_completo": "FREZ JONATHAN",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "156",
+      "nombre": "ESTRUCTURAS DE DATOS",
+      "codigo": "CIT2000",
+      "seccion": "3",
+      "bloque": "4",
+      "dia": "3",
+      "nombre_completo": "GAGIE TRAVIS ALAN",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "157",
+      "nombre": "DISEÑO Y ANÁLISIS DE ALGORITMOS",
+      "codigo": "CIT2001",
+      "seccion": "1",
+      "bloque": "2",
+      "dia": "2",
+      "nombre_completo": "HIDALGO MAURICIO FERNANDO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "158",
+      "nombre": "DISEÑO Y ANÁLISIS DE ALGORITMOS",
+      "codigo": "CIT2001",
+      "seccion": "2",
+      "bloque": "5",
+      "dia": "5",
+      "nombre_completo": "GAGIE TRAVIS ALAN",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "159",
+      "nombre": "BASES DE DATOS",
+      "codigo": "CIT2002",
+      "seccion": "1",
+      "bloque": "6",
+      "dia": "4",
+      "nombre_completo": "GIADACH JUAN RICARDO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "160",
+      "nombre": "BASES DE DATOS",
+      "codigo": "CIT2002",
+      "seccion": "2",
+      "bloque": "2",
+      "dia": "3",
+      "nombre_completo": "GUTIERREZ MARTIN EDUARDO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "161",
+      "nombre": "SISTEMAS OPERATIVOS",
+      "codigo": "CIT2003",
+      "seccion": "1",
+      "bloque": "4",
+      "dia": "2",
+      "nombre_completo": "HIDALGO MAURICIO FERNANDO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "162",
+      "nombre": "ARQUITECTURA DE SISTEMAS",
+      "codigo": "CIT2004",
+      "seccion": "1",
+      "bloque": "2",
+      "dia": "3",
+      "nombre_completo": "NIETO ANDREA VICTORIA",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "163",
+      "nombre": "INGENIERÍA DE SOFTWARE",
+      "codigo": "CIT2005",
+      "seccion": "1",
+      "bloque": "2",
+      "dia": "3",
+      "nombre_completo": "MARIN BEATRIZ",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "164",
+      "nombre": "REDES DE DATOS",
+      "codigo": "CIT2100",
+      "seccion": "1",
+      "bloque": "2",
+      "dia": "5",
+      "nombre_completo": "HIDALGO NICOLAS ANDRES",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "165",
+      "nombre": "REDES DE DATOS",
+      "codigo": "CIT2100",
+      "seccion": "2",
+      "bloque": "6",
+      "dia": "1",
+      "nombre_completo": "ALVAREZ JAIME ALFONSO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "166",
+      "nombre": "REDES DE DATOS",
+      "codigo": "CIT2100",
+      "seccion": "3",
+      "bloque": "1",
+      "dia": "3",
+      "nombre_completo": "PÉREZ JOSÉ ALEJANDRO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "167",
+      "nombre": "SEÑALES Y SISTEMAS",
+      "codigo": "CIT2101",
+      "seccion": "1",
+      "bloque": "3",
+      "dia": "2",
+      "nombre_completo": "DUJOVNE DIEGO ROBERTO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "168",
+      "nombre": "SEÑALES Y SISTEMAS",
+      "codigo": "CIT2101",
+      "seccion": "2",
+      "bloque": "5",
+      "dia": "2",
+      "nombre_completo": "TOBAR JORGE",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "169",
+      "nombre": "COMUNICACIONES DIGITALES",
+      "codigo": "CIT2102",
+      "seccion": "1",
+      "bloque": "6",
+      "dia": "3",
+      "nombre_completo": "DUJOVNE DIEGO ROBERTO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "170",
+      "nombre": "SISTEMAS DIGITALES",
+      "codigo": "CIT2103",
+      "seccion": "1",
+      "bloque": "5",
+      "dia": "3",
+      "nombre_completo": "SANCHEZ PABLO RAUL",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "171",
+      "nombre": "ARQUITECTURA DE COMPUTADORES",
+      "codigo": "CIT2104",
+      "seccion": "1",
+      "bloque": "5",
+      "dia": "3",
+      "nombre_completo": "HERRERA FRANCISCO JAVIER",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "172",
+      "nombre": "CRIPTOGRAFÍA Y SEGURIDAD EN REDES",
+      "codigo": "CIT2105",
+      "seccion": "1",
+      "bloque": "4",
+      "dia": "2",
+      "nombre_completo": "ORMEÑO CARLOS VICTOR",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "232",
+      "nombre": "ELECTRÓNICA Y ELECTROTECNIA",
+      "codigo": "CIT2106",
+      "seccion": "1",
+      "bloque": "5",
+      "dia": "3",
+      "nombre_completo": "NEGRONI JUAN JOSE",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "173",
+      "nombre": "PROYECTO EN TICS I",
+      "codigo": "CIT2200",
+      "seccion": "1",
+      "bloque": "5",
+      "dia": "4",
+      "nombre_completo": "ELLIOTT JORGE ERNESTO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "174",
+      "nombre": "PROYECTO EN TICS I",
+      "codigo": "CIT2200",
+      "seccion": "2",
+      "bloque": "4",
+      "dia": "3",
+      "nombre_completo": "ELLIOTT JORGE ERNESTO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "175",
+      "nombre": "PROYECTO EN TICS II",
+      "codigo": "CIT2201",
+      "seccion": "1",
+      "bloque": "4",
+      "dia": "4",
+      "nombre_completo": "CASAS EDMUNDO GASTON",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "176",
+      "nombre": "MODELOS ESTOCASTICOS Y SIMULACIÓN",
+      "codigo": "CIT2202",
+      "seccion": "1",
+      "bloque": "4",
+      "dia": "5",
+      "nombre_completo": "BARRIENTOS CLAUDIO MAURICIO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "177",
+      "nombre": "GESTIÓN ORGANIZACIÓNAL",
+      "codigo": "CIT2203",
+      "seccion": "1",
+      "bloque": "3",
+      "dia": "4",
+      "nombre_completo": "GEOFFROY XIMENA",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "231",
+      "nombre": "PROBABILIDADES Y ESTADÍSTICAS",
+      "codigo": "CIT2204",
+      "seccion": "1",
+      "bloque": "3",
+      "dia": "4",
+      "nombre_completo": "SCHKOLNIK DEMIAN ALEY",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "178",
+      "nombre": "EVALUACIÓN DE PROYECTOS TIC",
+      "codigo": "CIT3200",
+      "seccion": "1",
+      "bloque": "2",
+      "dia": "3",
+      "nombre_completo": "ELLIOTT JORGE ERNESTO",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "179",
+      "nombre": "PROYECTO EN TICS III",
+      "codigo": "CIT3201",
+      "seccion": "1",
+      "bloque": "2",
+      "dia": "3",
+      "nombre_completo": "NIETO ANDREA VICTORIA",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "183",
+      "nombre": "DESARROLLO WEB",
+      "codigo": "CIT3323",
+      "seccion": "1",
+      "bloque": "1",
+      "dia": "3",
+      "nombre_completo": "VEGA MAXIMILIANO ANDRE",
+      "nombre_completo_p": ""
+    },
+    {
+      "id": "185",
+      "nombre": "TECNOLOGÍAS INALÁMBRICAS",
+      "codigo": "CIT3417",
+      "seccion": "1",
+      "bloque": "3",
+      "dia": "5",
+      "nombre_completo": "AHUMADA LUCIANO SEBASTIAN",
+      "nombre_completo_p": ""
+    }
+  ]
+}

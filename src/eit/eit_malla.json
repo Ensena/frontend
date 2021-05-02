@@ -1,0 +1,427 @@
+[
+    [{
+        "nombre": "Álgebra y Geometria",
+        "numero": 1,
+        "creditos": 7,
+        "requisitos": [],
+        "css": "TableCB",
+        "codigo": "CBM-1000"
+    },
+        {
+            "nombre": "Cálculo I",
+            "numero": 2,
+            "creditos": 7,
+            "requisitos": [],
+            "css": "TableCB",
+            "codigo": "CBM-1001"
+        },
+        {
+            "nombre": "Química",
+            "numero": 3,
+            "creditos": 6,
+            "requisitos": [],
+            "css": "TableCB",
+            "codigo": "CBQ-1000"
+        },
+        {
+            "nombre": "Programación",
+            "numero": 4,
+            "creditos": 6,
+            "requisitos": [],
+            "css": "TableCI",
+            "codigo": "CIT-1000"
+        },
+        {
+            "nombre": "Comunicación para la ingeniería",
+            "numero": 5,
+            "creditos": 5,
+            "requisitos": [],
+            "css": "TableFI",
+            "codigo": "FIC-1000"
+        }
+    ],
+    [{
+        "nombre": "Álgebra Lineal",
+        "numero": 6,
+        "creditos": 6,
+        "requisitos": [1],
+        "css": "TableCB",
+        "codigo": "CBM-1002"
+    },
+        {
+            "nombre": "Cálculo II",
+            "numero": 7,
+            "creditos": 6,
+            "requisitos": [2],
+            "css": "TableCB",
+            "codigo": "CBM-1003"
+        },
+        {
+            "nombre": "Mecánica",
+            "numero": 8,
+            "creditos": 7,
+            "requisitos": [2],
+            "css": "TableCB",
+            "codigo": "CBF-1000"
+        },
+        {
+            "nombre": "Programación Avanzada",
+            "numero": 9,
+            "creditos": 6,
+            "requisitos": [4],
+            "css": "TableCI",
+            "codigo": "CIT-1010"
+        },
+        {
+            "nombre": "Minor/CFG",
+            "numero": 10,
+            "creditos": 4,
+            "requisitos": [],
+            "css": "TableFI",
+            "codigo": ""
+        }
+    ],
+    [{
+        "nombre": "Ecuaciones Diferenciales",
+        "numero": 11,
+        "creditos": 6,
+        "requisitos": [6, 7],
+        "css": "TableCB",
+        "codigo": "CBM-1005"
+    },
+        {
+            "nombre": "Cálculo III",
+            "numero": 6,
+            "creditos": 6,
+            "requisitos": [7],
+            "css": "TableCB",
+            "codigo": "CBM-1006"
+        },
+        {
+            "nombre": "Calor y Ondas",
+            "numero": 13,
+            "creditos": 7,
+            "requisitos": [7, 8],
+            "css": "TableCB",
+            "codigo": "CBF-1001"
+        },
+        {
+            "nombre": "Estructura de datos",
+            "numero": 14,
+            "creditos": 6,
+            "requisitos": [9],
+            "css": "TableOC",
+            "codigo": "CIT-2000"
+        },
+        {
+            "nombre": "Redes de datos",
+            "numero": 15,
+            "creditos": 6,
+            "requisitos": [9],
+            "css": "TableOC",
+            "codigo": "CIT-2100"
+        }
+    ],
+    [{
+        "nombre": "Probabilidad y Estadistica",
+        "numero": 16,
+        "creditos": 6,
+        "requisitos": [7],
+        "css": "TableCI",
+        "codigo": "CIT-2204"
+    },
+        {
+            "nombre": "Métodos Numericos",
+            "numero": 17,
+            "creditos": 6,
+            "requisitos": [6, 7],
+            "css": "TableCI",
+            "codigo": "CBM-2000"
+        },
+        {
+            "nombre": "Electricidad y Magnetismo",
+            "numero": 18,
+            "creditos": 7,
+            "requisitos": [11, 12],
+            "css": "TableCB",
+            "codigo": "CBF-1002"
+        },
+        {
+            "nombre": "Diseño y Análisis de Algoritmos",
+            "numero": 19,
+            "creditos": 6,
+            "requisitos": [14],
+            "css": "TableOC",
+            "codigo": "CIT-2001"
+        },
+        {
+            "nombre": "Minor/CFG",
+            "numero": 20,
+            "creditos": 5,
+            "requisitos": [],
+            "css": "TableFI",
+            "codigo": ""
+        }, {
+        "nombre": "Inglés I",
+        "numero": 21,
+        "creditos": 5,
+        "requisitos": [5],
+        "css": "TableFI",
+        "codigo": "FIC-1001"
+    }
+    ],
+    [{
+        "nombre": "Optimización",
+        "numero": 22,
+        "creditos": 6,
+        "requisitos": [6, 12],
+        "css": "TableCI",
+        "codigo": "CII-2750"
+    },
+        {
+            "nombre": "Electrónica y Electrotecnia",
+            "numero": 23,
+            "creditos": 6,
+            "requisitos": [18],
+            "css": "TableCI",
+            "codigo": "CIT-2106"
+        },
+        {
+            "nombre": "Proyecto en TICs 1",
+            "numero": 24,
+            "creditos": 6,
+            "requisitos": [15, 19],
+            "css": "TableOC",
+            "codigo": "CIT-2200"
+        },
+        {
+            "nombre": "Bases de Datos",
+            "numero": 25,
+            "creditos": 6,
+            "requisitos": [19],
+            "css": "TableOC",
+            "codigo": "CIT-2002"
+        },
+        {
+            "nombre": "Minor/CFG",
+            "numero": 20,
+            "creditos": 5,
+            "requisitos": [],
+            "css": "TableFI",
+            "codigo": ""
+        },
+        {
+            "nombre": "Inglés II",
+            "numero": 27,
+            "creditos": 5,
+            "requisitos": [21],
+            "css": "TableFI",
+            "codigo": "FIC-1002"
+        }
+    ],
+    [{
+        "nombre": "Introducción a la Economia",
+        "numero": 28,
+        "creditos": 6,
+        "requisitos": [12],
+        "css": "TableCI",
+        "codigo": "CII-2000"
+    },
+        {
+            "nombre": "Modelos Esto. Y Simul.",
+            "numero": 29,
+            "creditos": 6,
+            "requisitos": [15, 16, 22],
+            "css": "TableCI",
+            "codigo": "CIT-2202"
+        },
+        {
+            "nombre": "Señales y Sistemas",
+            "numero": 30,
+            "creditos": 6,
+            "requisitos": [16, 23],
+            "css": "TableOC",
+            "codigo": "CIT-2101"
+        },
+        {
+            "nombre": "Sistemas Operativos",
+            "numero": 31,
+            "creditos": 6,
+            "requisitos": [15, 25],
+            "css": "TableOC",
+            "codigo": "CIT-2003"
+        },
+        {
+            "nombre": "Sistemas Digitales",
+            "numero": 27,
+            "creditos": 5,
+            "requisitos": [23],
+            "css": "TableOC",
+            "codigo": "CIT-2103"
+        }
+    ],
+    [{
+        "nombre": "Contabilidad y Costos",
+        "numero": 33,
+        "creditos": 6,
+        "requisitos": [2],
+        "css": "TableCI",
+        "codigo": "CII-1000"
+    },
+        {
+            "nombre": "Ingenieria de software",
+            "numero": 34,
+            "creditos": 6,
+            "requisitos": [24, 25],
+            "css": "TableOC",
+            "codigo": "CIT-2005"
+        },
+        {
+            "nombre": "Comunicaciones Digitales",
+            "numero": 35,
+            "creditos": 6,
+            "requisitos": [30],
+            "css": "TableOC",
+            "codigo": "CIT-2102"
+        },
+        {
+            "nombre": "Derecho en Ingenieria",
+            "numero": 36,
+            "creditos": 5,
+            "requisitos": [],
+            "css": "TableFI",
+            "codigo": "FIC-1003"
+        },
+        {
+            "nombre": "Arquitectura de Computadores",
+            "numero": 37,
+            "creditos": 6,
+            "requisitos": [32],
+            "css": "TableOC",
+            "codigo": "CIT-2104"
+        }
+    ],
+    [{
+        "nombre": "Gestión Organizacional",
+        "numero": 38,
+        "creditos": 6,
+        "requisitos": [5],
+        "css": "TableCI",
+        "codigo": "CIT-2203"
+    },
+        {
+            "nombre": "Arquitectura de sistemas",
+            "numero": 39,
+            "creditos": 6,
+            "requisitos": [34],
+            "css": "TableOC",
+            "codigo": "CIT-2004"
+        },
+        {
+            "nombre": "Criptografia y seguridad en redes",
+            "numero": 40,
+            "creditos": 6,
+            "requisitos": [31],
+            "css": "TableOC",
+            "codigo": "CIT-2105"
+        },
+        {
+            "nombre": "Proyecto en TICs II",
+            "numero": 41,
+            "creditos": 6,
+            "requisitos": [24, 34, 35],
+            "css": "TableOC",
+            "codigo": "CIT-2201"
+        },
+        {
+            "nombre": "Minor/CFG",
+            "numero": 20,
+            "creditos": 5,
+            "requisitos": [],
+            "css": "TableFI",
+            "codigo": ""
+        }
+    ],
+    [{
+        "nombre": "Electivo Profesional",
+        "numero": 43,
+        "creditos": 6,
+        "requisitos": [],
+        "css": "TableCB",
+        "codigo": "CIT-33XX"
+    },
+        {
+            "nombre": "Electivo Profesional",
+            "numero": 44,
+            "creditos": 6,
+            "requisitos": [],
+            "css": "TableCB",
+            "codigo": "CIT-34XX"
+        },
+        {
+            "nombre": "Electivo Profesional",
+            "numero": 45,
+            "creditos": 6,
+            "requisitos": [],
+            "css": "TableCB",
+            "codigo": "CIT-34XX"
+        },
+        {
+            "nombre": "Evaluación de proyectos TIC",
+            "numero": 46,
+            "creditos": 6,
+            "requisitos": [33, 41],
+            "css": "TableCB",
+            "codigo": "CIT-3200"
+        },
+        {
+            "nombre": "Electivo Profesional",
+            "numero": 47,
+            "creditos": 6,
+            "requisitos": [],
+            "css": "TableCB",
+            "codigo": "CIT-33XX"
+        }
+    ],
+    [{
+        "nombre": "Electivo Profesional",
+        "numero": 48,
+        "creditos": 6,
+        "requisitos": [],
+        "css": "TableCB",
+        "codigo": "CIT-33XX"
+    },
+        {
+            "nombre": "Electivo Profesional",
+            "numero": 49,
+            "creditos": 6,
+            "requisitos": [],
+            "css": "TableCB",
+            "codigo": "CIT-34XX"
+        },
+        {
+            "nombre": "Electivo Profesional",
+            "numero": 50,
+            "creditos": 6,
+            "requisitos": [],
+            "css": "TableCB",
+            "codigo": "CIT-34XX"
+        },
+        {
+            "nombre": "Proyecto en TICs III",
+            "numero": 51,
+            "creditos": 6,
+            "requisitos": [46],
+            "css": "TableCB",
+            "codigo": "CIT-3201"
+        },
+        {
+            "nombre": "Electivo Profesional",
+            "numero": 52,
+            "creditos": 6,
+            "requisitos": [],
+            "css": "TableCB",
+            "codigo": "CIT-33XX"
+        }
+    ]
+]

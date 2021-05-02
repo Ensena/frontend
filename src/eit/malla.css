@@ -1,0 +1,73 @@
+.highlight2 {color:#ff0000;background-color:#6db001}
+.TableCB { background-color:#99ccff;border-collapse:collapse; font-size:10px; padding:0px ;spacing:0px; border: 1px solid black; width:75px}
+.TableCB th { background-color:#99ccff; }
+.TableCB td, .myTable th { background-color:#99ccff;padding:0px; }
+.TableCI { background-color:#ccffcc;border-collapse:collapse; font-size:10px; padding:0px ;spacing:0px; border: 1px solid black;width:75px}
+.TableCI th { background-color:#ccffcc; }
+.TableCI td, .myTable th { background-color:#ccffcc;padding:0px; }
+.TableOC { background-color:#ffff99;border-collapse:collapse; font-size:10px; padding:0px ;spacing:0px; border: 1px solid black;width:75px}
+.TableOC th { background-color:#ffff99; }
+.TableOC td, .myTable th { background-color:#ffff99;padding:0px; }
+.TableFI { background-color:#FFCC99;border-collapse:collapse; font-size:10px; padding:0px ;spacing:0px; border: 1px solid black;width:75px}
+.TableFI th { background-color:#FFCC99; }
+.TableFI td, .myTable th { background-color:#FFCC99;padding:0px; }
+.CourseName {height: 24px; width: 80px; text-align: center; vertical-align:text-top;font-weight: bold; line-height:92%}
+.CellCourseId { border: 1px solid black ; width:50%; text-align: center;}
+.rotate {
+    white-space: nowrap;
+    vertical-align:text-center;
+    text-align:center;
+    width :25px;
+    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+    -moz-transform: rotate(-90.0deg);  /* FF3.5+ */
+    -ms-transform: rotate(-90.0deg);  /* IE9+ */
+    -o-transform: rotate(-90.0deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(-90.0deg);  /* Safari 3.1+, Chrome */
+    transform: rotate(-90.0deg);  /* Standard */
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #2d2d2d8f;
+    padding: 10px;
+
+}
+
+
+.container {
+
+}
+
+.box {
+
+    background-color: black;
+    position: relative;
+}
+
+.box.disabled::before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(20deg);
+    transform-origin: center;
+    z-index: 2;
+    left: 0;
+    top: 50%;
+}
+
+.box.disabled::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(-20deg);
+    transform-origin: center;
+    z-index: 1;
+    left: 0;
+    top: 50%;
+}

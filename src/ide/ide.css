@@ -1,0 +1,11 @@
+.IdeActive{
+    background-color: rgb(57 69 77 / 73%) !important;
+    border: 0.5px solid #000000;
+    border-radius: 20px;
+    color: #f0f0f0 !important;
+}
+.IdeActive strong{
+
+    color: #f0f0f0 !important;
+}
+
