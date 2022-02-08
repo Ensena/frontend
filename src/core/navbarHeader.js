@@ -2,9 +2,20 @@ import {Name,LastName,Picture} from './ensena'
 import { Link } from "react-router-dom";
 import "./docencia.css"
 function deleteAllCookies() {
-  document.cookie = "ensena=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+  console.log("ACA Borrando");
+  let cookies = document.cookie.split(";");
+  for (let i = 0; i < cookies.length; i++) {
+      let cookie = cookies[i];
+      let eqPos = cookie.indexOf("=");
+      let name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+      document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+  }
+  console.log("ACA borrado");
+
 
 }
+
+
 
 function Header() {
   let css = "navbar navbar-expand navbar-dark bg-primary m-0"
@@ -15,6 +26,7 @@ function Header() {
     text = "Docencia EIT"
     img ="/assets/images/logo/udp.png"
   }
+
 
     return    <div id="header" className="mdk-header bg-dark js-mdk-header m-0" data-fixed data-effects="waterfall">
     <div className="mdk-header__content">
@@ -141,16 +153,18 @@ function Header() {
             {/* // END Notifications dropdown */}
             {/* User dropdown */}
             <li className="nav-item dropdown ml-1 ml-md-3">
-              <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"><img src={Picture} alt="Avatar" className="rounded-circle" width={40} /></a>
+              <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                {/* <img src={Picture} alt="Avatar" className="rounded-circle" width={40} /> */}
+                </a>
               <div className="dropdown-menu dropdown-menu-right">
                 <a className="dropdown-item" href="fixed-student-account-edit.html">
-                  <i className="material-icons">edit</i> Editar mi cuenta
+                  {/* <i className="material-icons">edit</i> Editar mi cuenta */}
                 </a>
                 {/* <a class="dropdown-item"
                                        href="fixed-student-profile.html">
                                         <i class="material-icons">person</i> Public Profile
                                     </a> */}
-                <a className="dropdown-item" onClick={()=>{deleteAllCookies() ; window.location = window.location  }}>
+                <a className="dropdown-item" onclick={()=>{deleteAllCookies() ; window.location = window.location  }}>
                   <i className="material-icons">lock</i> Cerrar Sessión
                 </a>
               </div>

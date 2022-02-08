@@ -19,12 +19,17 @@ class AdminCourse extends React.Component {
   
   
     for (let course of Me.sectionsByOwnerId.edges ){
-      console.log("ME",course.node.id,id)
       if (course.node.id ==id)  {
             section = course.node
             break 
        }
     }
+    for(let helperCourse of  Me.usersSectionsByUserId.edges){
+      if(helperCourse.node.role <3 &&  helperCourse.node.sectionBySectionId.id == id ){
+        section = helperCourse.node.sectionBySectionId
+      }
+    }
+
     this.state = { section:section}
   
   }

@@ -249,6 +249,25 @@ Render.then(()=>{
     UUID = uuidv4()
 })
 
+let FindInstitute = (id)=>{
+    if (Me){
+      for(let s of Me.sectionsByOwnerId.edges)
+      if (s.node.courseByCourseId.institutionByOwnerInstitutionId.id==id){
+        return true 
+      } 
+      for(let s of Me.usersSectionsByUserId.edges)
+      if (s.node.sectionBySectionId.courseByCourseId.institutionByOwnerInstitutionId.id==id){
+        return true 
+      } 
+      if (id == 2 && Me.moodleUdp){
+        return true 
+      }
+  
+    }
+  
+    return false
+  }
 
 
-export  { Name , Render,LastName,Email,Picture,Me,data,Api,UUID,GenerateUUID,Token  }
+
+export  { Name , Render,LastName,Email,Picture,Me,data,Api,UUID,GenerateUUID,Token,FindInstitute  }

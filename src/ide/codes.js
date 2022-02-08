@@ -25,8 +25,7 @@ import "fmt"
 func main() {
     fmt.Println("Hola Mundo")
 }`
-let CodeSQL = `select 'Hola Mundo';`
-
+let CodeSQL = `select 'Hola Mundo' as mensaje;`
 
 let Type=(key)=> {
     console.log("AQUI", key)
@@ -81,6 +80,9 @@ let Langs = [{
 },{
     val: "Golang",
     name: "Golang"
+},{
+    val: "SQL",
+    name: "SQL"
 }
 ]
 

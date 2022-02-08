@@ -1,5 +1,5 @@
 import React from 'react';
-import {Me as me,Api}  from '../core/ensena';
+import {Me as me,Api,FindInstitute}  from '../core/ensena';
 import { render } from '@testing-library/react';
 import {
   Link
@@ -7,24 +7,7 @@ import {
 
 
 
-let findInstitute = (id)=>{
-  if (me){
-    for(let s of me.sectionsByOwnerId.edges)
-    if (s.node.courseByCourseId.institutionByOwnerInstitutionId.id==id){
-      return true 
-    } 
-    for(let s of me.usersSectionsByUserId.edges)
-    if (s.node.sectionBySectionId.courseByCourseId.institutionByOwnerInstitutionId.id==id){
-      return true 
-    } 
-    if (id == 2 && me.moodleUdp){
-      return true 
-    }
 
-  }
-
-  return false
-}
 
 class News extends React.Component {
 
@@ -32,7 +15,7 @@ class News extends React.Component {
       super(props)
 
 
-      this.udp = findInstitute(2);
+      this.udp = FindInstitute(2);
       this.uft =null// findInstitute(4) ;
   
       this.state={news :[]}

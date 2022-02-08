@@ -57,11 +57,22 @@ export default (props) => {
     let id = window.location.pathname.split("/")[2]
     let Section = {}
     for (let ss of Me.sectionsByOwnerId.edges) {
-        console.log("SS", ss.node.id, (+(id)))
         if (ss.node.id == (+(id))) {
             Section = ss.node
+            break
         }
     }
+ 
+    for(let helperCourse of  Me.usersSectionsByUserId.edges){
+        if(helperCourse.node.role <3 && helperCourse.node.sectionBySectionId.enable ){
+            if (helperCourse.node.sectionBySectionId.id == (+(id))) {
+                Section = helperCourse.node.sectionBySectionId
+                break
+            }
+        }
+      }
+
+
     // const [Section, setSection] = useState(S);
     // const [Users, setUsers] = useState(S.usersSectionsBySectionId.edges);
     const Users = Section.usersSectionsBySectionId.edges

@@ -18,6 +18,8 @@ import Coder from './ide/ideBasic';
 import Database from './ide/Database'
 import Avances from './eit/avances';
 
+import UDPILER from './apps/run'
+
 import './App.css';
 import Server from './ide/server';
 
@@ -34,12 +36,15 @@ function App() {
         <Route path="/AdminCoder/:id/" exact children={<AdminCoder />} />
 
 
+
         <Route path="/App/MasAPPS" exact children={<Apps />} />
         <Route path="/App/IdeOnline" exact children={<Coder />} />
         <Route path="/App/Database" exact children={<Database />} />
         <Route path="/App/Server" exact children={<Server />} />
         <Route path="/App/Avance" exact children={<Avances />} />
      
+
+        <Route path="/UDPILER" exact children={<UDPILER />} />
      
       </div>
   );

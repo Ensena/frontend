@@ -27,6 +27,19 @@ export default (props)=>{
             name:course.node.courseByCourseId.name
         })
     }
+    for(let course of Me.usersSectionsByUserId.edges){
+      if (course.node.role>=3){
+          continue
+      } 
+      if (!(course.node.sectionBySectionId.enable)){
+        continue 
+      }
+
+      courses.push({
+          id:course.node.sectionBySectionId.id,
+          name:course.node.sectionBySectionId.courseByCourseId.name
+      })
+  }
 
 
 

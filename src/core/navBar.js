@@ -1,5 +1,5 @@
 import { Link,BrowserRouter } from "react-router-dom";
-import { Me,data } from "./ensena";
+import { Me,data,FindInstitute } from "./ensena";
 
 function NavbarAT(){
   let moodle="/md-eit/course/view.php?id="+data.Moodle[0].CourseID
@@ -33,6 +33,8 @@ function NavbarAT(){
 
 function NavBarUsers() {
 
+  let udp = FindInstitute(2)
+
 return    <div className="page__header">
         <div className="navbar bg-dark navbar-dark navbar-expand-sm d-none2 d-md-flex2">
           <div className="container">
@@ -48,9 +50,9 @@ return    <div className="page__header">
                     <a href="/atraccion-de-talentos/scoreboard/" className="dropdown-item">Score Board</a>
                   </div>
                 </li>:null}
-                <li className="nav-item">
-                  <a href="/" className="nav-link">UDPiler</a>
-                </li>
+                {udp?<li className="nav-item">
+                  <Link to="/UDPILER"  className="nav-link">UDPiler</Link>
+                </li>:null}
             
                 <li className="nav-item dropdown">
                   <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Apps </a>

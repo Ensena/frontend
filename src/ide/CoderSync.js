@@ -8,7 +8,7 @@ const uuid = GenerateUUID()
 let sync = {}
 
 socket.on("broadcast", data => {
-    console.log("DDD",data,sync,data.id,uuid)
+    //console.log("DDD",data,sync,data.id,uuid)
 
     if(data.id==undefined){
         return 
@@ -115,6 +115,9 @@ export default class Coder {
 
         let compiler = new Api("compiler/" + this.lang.toLowerCase())
         compiler.SetDomain("https://ide.xn--ensea-rta.cl/")
+        if (this.lang.toLowerCase() =="sql"){
+            compiler.SetDomain("https://ide-db.xn--ensea-rta.cl/")
+        }
         let msg = {
             "Name": "",
             "File": this.code
@@ -135,7 +138,7 @@ export default class Coder {
                     this.setURL("https://ide.xn--ensea-rta.cl/JAVA/?session=" + data.Path)
                     break;
                 case "SQL":
-                    this.setURL("https://ide.xn--ensea-rta.cl/SQL/?session=" + data.Path)
+                    this.setURL("https://ide-db.xn--ensea-rta.cl/SQL/?session=" + data.Path)
                     break;
                 case "Golang":
                     this.setURL("https://ide.xn--ensea-rta.cl/GOLANG/?session=" + data.Path)

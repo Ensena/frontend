@@ -14,6 +14,20 @@ function Bar({Lang,Coder}){
       Coder.changeLang(value)
     }
 
+    console.log("ME",Me)
+    let lengthAdminCourses  = 0
+    for(let ownerCourse of  Me.sectionsByOwnerId.edges){
+      if(ownerCourse.node.enable){
+        lengthAdminCourses++
+      }
+    }
+ 
+    for(let helperCourse of  Me.usersSectionsByUserId.edges){
+      if(helperCourse.node.role <3 && helperCourse.node.sectionBySectionId.enable ){
+        lengthAdminCourses++
+      }
+    }
+
 
     return  <div className=" sidebar-left sidebar-dark o-hidden" data-perfect-scrollbar  style={{"background":"#2c353c"}}>
     <div className="sidebar-p-y">
@@ -72,7 +86,7 @@ function Bar({Lang,Coder}){
 
       
 
- <Admin/>
+ {lengthAdminCourses>0?<Admin/>:null}
    </div>
   </div>
 }

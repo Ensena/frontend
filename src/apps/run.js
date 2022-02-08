@@ -1,42 +1,27 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Iframe from "react-iframe";
-import Footer from '../footer/footer';
-import AppRequest from './requests';
+
+import  {Api,FindInstitute} from '../core/ensena'
 
 
-class AppsRun extends React.Component {
+export default ()=> {
+  const [url, setURL] = useState("");
 
-
-  constructor(props){
-    super(props)
-  
-
-
+  if (!FindInstitute(2)){
+    return 
   }
-    render() {
 
-    let id = +(window.location.pathname.split("/")[2])
- 
-    let app = window.apps[id].node
-
-    if (window.apps[id].node.usersAppsByAppId.enable==0){
-
-        return <AppRequest />
-    }
-
-
-
-    return   <Iframe
-              url={"https://api.enseña.cl/external/v1/go?app_id="+app.id+"&token="+window.token}
+  let api = new Api("external")
+  api.getAll().then((data)=>{
+    setURL(data.Url)
+  })
+    return  <div>{url!=""?<Iframe
+              url={url}
               width="100%"
               height="700px"
               id="myId"
               className="myClassname"
               display="initial"
               position="relative"
-            />
+            />:null}</div>
   }
-
-}
-
-export default AppsRun;
